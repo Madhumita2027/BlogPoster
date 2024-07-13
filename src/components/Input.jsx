@@ -7,8 +7,7 @@ const Input = React.forwardRef( function Input(
         type = 'text',
         className = '',
         ...props
-    },
-    ref
+    }, ref
 ) {
     const id = useId()
 
