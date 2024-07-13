@@ -1,8 +1,6 @@
-# React + Vite
+# BlogPoster - A Blogging Application for your thoughts
+-	Developed a blogging platform using React.js for a dynamic UI & RTK for efficient state management, focusing on providing a robust, user-friendly interface for content creation and consumption.
+-	It features secure user authentication and authorization, CRUD operations for blog posts, a rich text editor, and image uploads.
+-	Appwrite is used for backend services which manages authentication, database storage, and file handling.
+-	Tech Stack: React.js, Redux Toolkit (RTK), Appwrite (BaaS), Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
