@@ -48,8 +48,7 @@ export class Service {
                     feturedImage,
                     status
                 }
-            )
-            
+            )    
         } catch (error) {
             console.log("Appwrite service :: updatePost :: error", error);
         }
@@ -76,8 +75,7 @@ export class Service {
                 conf.appwriteDatabaseId,
                 conf.appwriteCollectionId,
                 slug
-            )
-            
+            )  
         } catch (error) {
             console.log("Appwrite service :: getPost :: error");
             return false
@@ -90,8 +88,7 @@ export class Service {
                 conf.appwriteDatabaseId,
                 conf.appwriteCollectionId,
                 queries
-            )
-            
+            )   
         } catch (error) {
             console.log("Appwrite service :: getAllPosts :: error", error);
         }
@@ -99,15 +96,12 @@ export class Service {
 
 
     // file upload service
-
-    
-    async createFile(file) {
+    async uploadFile(file) {
         try {
             return await this.storage.createFile(
                 conf.appwriteBucketId,
                 file
             )
-            
         } catch (error) {
             console.log("Appwrite service :: createFile :: error", error);
             return false
@@ -120,7 +114,6 @@ export class Service {
                 conf.appwriteBucketId,
                 fileID
             )
-            
         } catch (error) {
             console.log("Appwrite service :: deleteFile :: error", error);
             return false
