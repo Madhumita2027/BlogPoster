@@ -8,6 +8,10 @@ import Input from "./Input.jsx";
 import PostCard from "./PostCard.jsx";
 import Select from "./Select.jsx";
 import RTE from "./RTE.jsx";
+import SignUp from "./SignUp.jsx";
+import Login from "./Login.jsx";
+import PostForm from "./post-form/PostForm.jsx";
+
 
 
 export {
@@ -21,4 +25,7 @@ export {
     PostCard,
     Select,
     RTE,
+    SignUp,
+    Login,
+    PostForm
 }
