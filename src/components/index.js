@@ -11,6 +11,7 @@ import RTE from "./RTE.jsx";
 import SignUp from "./SignUp.jsx";
 import Login from "./Login.jsx";
 import PostForm from "./post-form/PostForm.jsx";
+import AuthLayout from "./AuthLayout.jsx"
 
 
 
@@ -27,5 +28,6 @@ export {
     RTE,
     SignUp,
     Login,
-    PostForm
+    PostForm,
+    AuthLayout
 }
