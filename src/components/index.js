@@ -14,7 +14,6 @@ import PostForm from "./post-form/PostForm.jsx";
 import AuthLayout from "./AuthLayout.jsx"
 
 
-
 export {
     Header,
     Footer,
